@@ -19,9 +19,10 @@ class HotCanvas extends Component {
     //2. have the image follow the cursor
     //3. drop on a location when mouse is clicked 
 
+
     let newObj = [...this.state.viewableObjects, <HotImage />]
     this.setState({
-      viewableObjects: [...this.state.viewableObjects, newObj]
+      viewableObjects: [...this.state.viewableObjects, <HotImage />]
     });
   }
 
